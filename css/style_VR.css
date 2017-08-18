@@ -9,11 +9,11 @@ body,nav{
     padding:0;
 }
 section{
-    margin-top:38px;
-    margin-bottom:38px;
+	margin-top:38px;
+	margin-bottom:38px;
 }
  h2, h3{
-    line-height: 1.4;
+ 	line-height: 1.4;
  }
 h1{
     color: #111;
@@ -25,7 +25,7 @@ h1{
     line-height: 1.2;
 }
 h2{
-      font-family: "Graphik-Medium";
+	  font-family: "Graphik-Medium";
     font-size: 1.842em;
 }
 h2 span{
@@ -33,18 +33,18 @@ h2 span{
     font-family: "Graphik-Semibold";
 }
 h3{
-      color: #333;
+	  color: #333;
     font-family: "Graphik-Regular";
     font-size: 0.947em;
     font-weight: 300;
 
 }
 h3 span{
-       font-family: "Graphik-Medium";
+	   font-family: "Graphik-Medium";
     font-weight: 400;
 }
 h4{
-        color: #999;
+	    color: #999;
     font-family: "Graphik-Semibold";
     font-size:0.368em;
     letter-spacing: 1px;
@@ -55,7 +55,7 @@ h4 span{
     color:#666;
 }
 p{
-     color: #666;
+	 color: #666;
     font-family: "LeituraNews-Roman";
     font-size: 0.631em;
     margin:24px 0;
@@ -123,7 +123,7 @@ section a{
 }
 
   .section1-a{
-    padding:70px 0 130px;
+  	padding:70px 0 130px;
       }
   .section2,.section4{
     background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -60px 32px / 150px auto;

@@ -1,0 +1,48 @@
+@font-face {
+font-family: 'Graphik';
+src: url('font/GRAPHIK.otf'); /* IE9 Compat Modes */
+src: url('font/GRAPHIK.otf?#iefix') format('opentype'); /* IE6-IE8 */
+}
+@font-face {
+font-family: 'Graphik-Medium';
+src: url('font/Graphik-Medium.otf'); /* IE9 Compat Modes */
+src: url('font/Graphik-Medium.otf?#iefix') format('opentype'); /* IE6-IE8 */
+}
+@font-face {
+font-family: 'Graphik-MediumItalic';
+src: url('font/Graphik-MediumItalic.otf'); /* IE9 Compat Modes */
+src: url('font/Graphik-MediumItalic.otf?#iefix') format('opentype'); /* IE6-IE8 */
+}
+@font-face {
+font-family: 'Graphik-Regular';
+src: url('font/Graphik-Regular.otf'); /* IE9 Compat Modes */
+src: url('font/Graphik-Regular.otf?#iefix') format('opentype'); /* IE6-IE8 */
+}
+@font-face {
+font-family: 'Graphik-RegularItalic';
+src: url('font/Graphik-RegularItalic.otf'); /* IE9 Compat Modes */
+src: url('font/Graphik-RegularItalic.otf?#iefix') format('opentype'); /* IE6-IE8 */
+}
+@font-face {
+font-family: 'Graphik-Semibold';
+src: url('font/Graphik-Semibold.otf'); /* IE9 Compat Modes */
+src: url('font/Graphik-Semibold.otf?#iefix') format('opentype'); /* IE6-IE8 */
+}
+@font-face {
+font-family: 'Graphik-SemiboldItalic';
+src: url('font/Graphik-SemiboldItalic.otg'); /* IE9 Compat Modes */
+src: url('font/Graphik-SemiboldItalic.otf?#iefix') format('opentype'); /* IE6-IE8 */
+}
+@font-face {
+font-family: 'Graphik-Bold';
+src: url('font/Graphik-Bold.otf'); /* IE9 Compat Modes */
+src: url('font/Graphik-Bold.otf?#iefix') format('opentype'); /* IE6-IE8 */
+}
+@font-face {
+font-family: 'LeituraNews-Roman';
+src:  url('font/LeituraNews-Roman 2_0.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+font-family: 'LeituraNews-Italic';
+src:  url('font/LeituraNews-Italic 2_0.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
