@@ -8,6 +8,9 @@ and (max-width : 414px) {
         text-align: center;
         padding-top: 0;
     }
+    h2{
+    font-size: 1.3em;
+}
     .section1-a > p {
     width: 100%;
 }
@@ -17,14 +20,18 @@ and (max-width : 414px) {
 .section2{
     padding:0;
 }
-.section2 h2 ,.web-h1 h2{
+ h2{
     font-size: 1.3em;
     padding-left: 25%;
-    padding-top: 16px;
+    padding-top: 0;
 }
 .section3-a, .section3-b {
     background: #fafafa none repeat scroll 0 0;
     padding: 38px;
+}
+.section5 h2 {
+    padding-left: 0;
+    text-align: center;
 }
 .web-h1{
     width:100%;
@@ -32,24 +39,92 @@ and (max-width : 414px) {
 .web{
     width:94%;
 }
-.web01 {
-    margin: 38px 0;
-}
-.web02 {
+
+.web01,.web02,.web04,.web03 {
     float: right;
-    margin: 0 0 38px;
+    margin: 38px 0 !important;
 }
+.web{
+    padding-top: 0
+}
+.hr2{
+    display: none;
+}
+.grey{
+    min-height: 220px;
+}
+.section2, .section4 ,.section7-det,.section6{
+    background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll 0 0 / 93px auto;
+    padding: 0;
+}
+
+.section_bg {
+    top: -4%;
+    }
+    .section_bg2 img {
+    width: 30%;
+}
+.section_bg > img {
+    width: 40%;
+}
+.web04{
+    margin-bottom:0;
+}
+.section5 .p1 {
+    width: 100%;
+}
+.section6 h2 {
+    margin-top: 0;
+}
+.section7-a {
+    min-height: 1070px !important;
+}
+.imgs {
+    margin: 38px auto;
+    width: 60%;
+}
+
+
+.contact-section1 h2 {
+    padding-left: 0;
+}
+.contact-section1 p {
+    padding: 0 10%;
+    }
+    .div-adjust {
+    margin-top: 114px;
+      float: left;
+    width: 100%;
+}
+.contact-section2 {
+    padding: 114px 0 0;
+    }
+
 }
 @media only screen
 and (max-width : 800px) {
+
     .navbar-header {
         float: none;
     }
+    .div_img img {
+    float: right;
+    padding-left: 34%;
+    width: 65%;
+}
+h1 {
+    padding-top: 38px;
+    }
+    h2 {
+    padding-left: 25%;
+}
     .navbar-left,.navbar-right {
         float: none !important;
     }
     .navbar-toggle {
         display: block;
+         margin-bottom: 0;
+         padding: 0;
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
@@ -76,5 +151,55 @@ and (max-width : 800px) {
     .collapse.in{
         display:block !important;
     }
-
+    .section3-a, .section3-b {
+    padding: 38px;
 }
+.hr2 {
+    margin: 76px 0 96px;
+}
+.web03 {
+    margin-bottom: 38px;
+    margin-top: -475px;
+}
+.section5 h2{
+    text-align: center;
+    padding-left: 0;
+}
+.section6 h2 {
+    margin-top: 0;
+}
+.section6 {
+    background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -60px 32px / 150px auto;
+    padding: 38px 0;
+}
+.imgs {
+    margin-top: 38px;
+}
+.section7-a {
+    min-height: 650px;
+}
+.list1 {
+    width: 100%;
+}
+
+.contact-section1 h2 {
+    padding-left: 0;
+}
+.div-adjust {
+    width: 100%;
+}
+}
+@media only screen
+and (max-device-width : 1900px)
+and (min-device-width : 768px) {
+
+.section_bg2 {
+    position: absolute;
+    top: -120px;
+    width: 93%;
+}
+.section_bg2 img {
+    width: 175px;
+}
+
+    }
