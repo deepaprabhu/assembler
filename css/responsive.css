@@ -203,3 +203,8 @@ and (min-device-width : 768px) {
 }
 
     }
+    @media screen and (min-width: 1201px) {
+        .container{
+            width:80%;
+        }
+    }
