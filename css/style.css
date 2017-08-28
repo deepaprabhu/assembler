@@ -2,8 +2,14 @@
 @import url('font.css');
 
 
-body,nav{
+nav{
   font-size: 24px;
+    line-height: 1.6;
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 24px;
     line-height: 1.6;
     margin:0;
     padding:0;
@@ -32,28 +38,6 @@ h2 span{
         color: #ff5c5c;
     font-family: "Graphik-Semibold";
 }
-h4{
-      color: #333;
-    font-family: "Graphik-Regular";
-    font-size: 0.947em;
-    font-weight: 300;
-
-}
-h4 span{
-       font-family: "Graphik-Medium";
-    font-weight: 400;
-}
-h5{
-        color: #999;
-    font-family: "Graphik-Semibold";
-    font-size:0.368em;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-
-}
-h5 span{
-    color:#666;
-}
 h3{      font-family: "Graphik-Regular";
         color: #333;
 
@@ -64,16 +48,44 @@ h3 span{
 
      font-family: "Graphik-Medium";
 }
-h6{
+h4{
+      color: #333;
+    font-family: "Graphik-Regular";
+    font-size: 0.947em;
+    font-weight: 300;
+
+}
+
+h4 span{
+       font-family: "Graphik-Medium";
+    font-weight: 400;
+}
+h5{
      color: #666;
     font-size: 0.684em;
     font-family: "LeituraNews-Roman";
 }
+h5 span{
+    font-family: 'LeituraNews-Italic';
+}
+h6{
+        color: #999;
+    font-family: "Graphik-Semibold";
+    font-size:0.368em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+h6 span{
+    color:#666;
+}
+
+
 p{
      color: #666;
     font-family: "LeituraNews-Roman";
     font-size: 0.631em;
-    margin:24px 0;
+    margin:20px 0;
     line-height: 1.6;
 }
 nav {
@@ -88,7 +100,7 @@ a, a:hover{
     color: #999;
     font-family: "Graphik-Semibold";
     letter-spacing: 1px;
-    margin-top: 3px;
+    margin-top: 5px;
     text-transform: uppercase;
     font-size: 0.421em;
     line-height: 1.6;
@@ -99,6 +111,7 @@ a, a:hover{
 
 .span-red {
     color: #ff5c5c !important;
+    font-family: inherit;
 }
 
 .brand {
@@ -136,7 +149,7 @@ section a{
     margin-top:0! important;
       background: rgba(0, 0, 0, 0) url("../img/header_gradient.jpg") repeat-x scroll 0 0;
   }
-  .section1-a > p {
+  .section1-a > h5 {
     width: 50%;
 }
 
@@ -164,6 +177,7 @@ section a{
      color: #999;
     font-family: "Graphik-Semibold";
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .section4 p:last-child{
     color:#999;
@@ -304,7 +318,10 @@ section a{
 }
 .section5_img img{
     width:60px;
-    margin-top:44px;
+    margin-top:38px;
+}
+.section5 h4{
+    margin: 16px 0 38px;
 }
   .section6{
     background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -60px 50% / 150px auto;
@@ -312,6 +329,9 @@ section a{
   }
   .section6 h2{
     margin-top: 28%;
+  }
+  .section6 h6{
+    text-align: center;
   }
   .section6 a{
 
@@ -362,7 +382,7 @@ section a{
 }
 .inputs {
     margin-bottom: 16px;
-     line-height: 1.2;
+     line-height: 1.6;
 }
 .form1 button::-moz-focus-inner {
     border: none;
@@ -370,15 +390,19 @@ section a{
 }
 .form1::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color:#999;
+
 }
 .form1::-moz-placeholder { /* Firefox 19+ */
   color: #999;
+
 }
 .form1:-ms-input-placeholder { /* IE 10+ */
   color: #999;
+
 }
 .form1:-moz-placeholder { /* Firefox 18- */
   color: #999;
+
 }
 .section7{
     margin:38px 0;
@@ -424,7 +448,7 @@ section a{
     text-align: center;
     text-transform: uppercase;
 }
-.imgs h4{
+.imgs h6{
     text-align: center;
 }
 .list1 {

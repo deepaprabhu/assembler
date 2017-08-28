@@ -1,16 +1,12 @@
 @media only screen
 and (max-width : 414px) {
+    body{
+        font-size: 50px;
+    }
     .div_img{
         display: none;
     }
-    h1{
-        font-size: 1.5em;
-        text-align: center;
-        padding-top: 0;
-    }
-    h2{
-    font-size: 1.3em;
-}
+
     .section1-a > p {
     width: 100%;
 }
@@ -19,6 +15,12 @@ and (max-width : 414px) {
 }
 .section2{
     padding:0;
+}
+.section3-b {
+    margin-top: 50px;
+}
+.section3 img {
+    margin-bottom: 0px;
 }
  h2{
     font-size: 1.3em;
@@ -108,9 +110,19 @@ and (max-width : 800px) {
         float: none;
     }
     .div_img img {
-    float: right;
-    padding-left: 34%;
-    width: 65%;
+    display: none;
+
+}
+
+.section1-a > h5 {
+    width: 100%;
+}
+.section_bg2 img {
+    width: 157px;
+}
+.section5_img img {
+
+    width: 100%;
 }
 h1 {
     padding-top: 38px;
@@ -151,16 +163,22 @@ h1 {
     .collapse.in{
         display:block !important;
     }
-    .section3-a, .section3-b {
-    padding: 38px;
+   .web-h1 {
+    width: 100%;
 }
-.hr2 {
-    margin: 76px 0 96px;
+.web {
+    padding-top: 19px;
+    width: 90%;
+    float: right;
 }
-.web03 {
-    margin-bottom: 38px;
-    margin-top: -475px;
+.web03,.web02,.web01,.web04 {
+     margin-bottom: 19px;
+    margin-top: 19px;
 }
+.hr2{
+    display: none;
+}
+
 .section5 h2{
     text-align: center;
     padding-left: 0;
@@ -188,6 +206,9 @@ h1 {
 .div-adjust {
     width: 100%;
 }
+.col-xs-12{
+    width:100%;
+}
 }
 @media only screen
 and (max-device-width : 1900px)
@@ -198,13 +219,207 @@ and (min-device-width : 768px) {
     top: -120px;
     width: 93%;
 }
-.section_bg2 img {
-    width: 175px;
-}
 
     }
-    @media screen and (min-width: 1201px) {
+    @media screen and (max-width: 996px)  {
+      .navbar-right{
+        display: none;
+      }
+      .navbar-brand.brand{
+        padding-right:50%;
+      }
+        .div_img img {
+            display: none;
+        }
+        .section1-a > h5 {
+    width: 100%;
+}
+  }
+   /* @media screen and (min-width:879px)  {
+        .container{
+            width:100%;
+        }
+    }*/
+  /*   @media screen and (max-width: 375px)  {
+   .sections{
+        font-size: 13px;
+    }
+ }*/
+  @media screen and (min-width: 1px)  {
+   body{
+        font-size: 10px;
+    }
+    section {
+    margin-bottom: 19px;
+    margin-top: 19px;
+    padding-top:19px;
+    padding-bottom:19px;
+}
+.section3-a, .section3-b {
+    padding: 38px;
+}
+
+ }
+     @media screen and (min-width: 375px)  {
+   body{
+        font-size: 13px;
+    }
+    .grey {
+    min-height: 140px;
+}
+.col1-right {
+    float: none;
+}
+   .section5,.section6,.section7 {
+    margin-bottom: 19px;
+    margin-top: 19px;
+}
+
+.section_bg2 img {
+    width: 93px;
+}
+.section5_img img {
+    float: right;
+    padding-right: 10%;
+    width: 50%;
+}
+.section5_img img {
+    margin-top: 30px;
+}
+.web1 {
+    width: 40%;
+}
+.section6 {
+    background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll 0 0 / 93px auto;
+}
+.form1 {
+    margin-top: 50px;
+}
+.section7-a {
+    margin: 114px auto 0;
+    padding: 114px 0 0;
+    }
+    .hr1 {
+    margin: 19px 0 38px;
+}
+.web1 {
+    width: 100%;
+}
+ }
+     @media screen and (min-width: 400px)  {
+   body{
+        font-size: 14px;
+    }
+ }
+     @media screen and (min-width: 425px)  {
+    body{
+        font-size: 16px;
+    }
+ }
+     @media screen and (min-width: 450px)  {
+    body{
+        font-size: 17px;
+    }
+ }
+      @media screen and (min-width: 500px)  {
+    body{
+        font-size: 19px;
+    }
+ }
+     @media screen and (min-width: 550px)  {
+    body{
+        font-size: 21px;
+    }
+ }
+ @media screen and (min-width: 650px)  {
+    body{
+        font-size: 22px;
+    }
+     .grey {
+    min-height: 160px;
+}
+ }
+
+   @media screen and (min-width: 767px)  {
+    .section5 .container{
+        width:100%;
+    }
+
+
+}
+   @media screen and (max-width: 1100px)  {
+      .navbar-brand.brand{
+        padding-right:20%;
+      }
+      .div_img img {
+    float: right;
+    padding-left: 0;
+    padding-right: 10%;
+}
+    }
+    @media screen and (min-width: 1366px) {
         .container{
             width:86.5%;
         }
+        body,nav,footer{
+            font-size: 24px;
+        }
+
     }
+     @media screen and (min-width: 1400px) {
+        body,nav,footer{
+            font-size: 28px;
+        }
+     }
+     @media screen and (min-width: 1500px) {
+        body,nav,footer{
+            font-size: 30px;
+        }
+          .div_img img {
+    width: 69%;
+}
+.nav li img {
+    width: 21px;
+}
+     }
+      @media screen and (min-width: 1600px) {
+        body,nav{
+            font-size: 32px;
+        }
+        .div_img img {
+    width: 73%;
+}
+.nav li img {
+    width: 22px;
+}
+     }
+      @media screen and (min-width: 1700px) {
+       body,nav{
+            font-size: 34px;
+        }
+         .div_img img {
+    width: 75%;
+}
+.nav li img {
+    width: 23px;
+}
+     }
+      @media screen and (min-width: 1800px) {
+        body,nav{
+            font-size: 36px;
+        }
+          .div_img img {
+    width: 78%;
+}
+     }
+     @media screen and (min-width: 1900px) {
+        body,nav{
+            font-size: 40px;
+        }
+                  .div_img img {
+    width: 79%;
+}
+.nav li img {
+    width: 24px;
+}
+     }
