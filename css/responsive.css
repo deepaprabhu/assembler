@@ -558,7 +558,55 @@ section{
         body,nav,footer{
             font-size: 28px;
         }
+        .grey {
+    min-height: 225px;
+}
+.web {
+
+    width: 42%;
      }
+     .div_img img {
+    width: 68%;
+}
+.section2, .section4 {
+    background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -11% 0 / 15% auto;
+    }
+    .section6 {
+    background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -11% 35% / 15% auto;
+    }
+    section {
+    margin-bottom: 57px;
+    margin-top: 57px;
+}
+.section3-a, .section3-b {
+    padding: 114px;
+}
+.web {
+    padding: 10px 40px;
+    width: 42%;
+}
+.grey {
+    min-height: 267px;
+}
+.section7-det {
+    background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -11% 35% / 15% auto;
+ }
+ .section_bg2 img {
+    width: 15%;
+}
+.section_bg2 {
+    top: -11%;
+}
+.section5-a {
+    padding-top: 15%;
+}
+.section_bg {
+    top: -8%;
+}
+.section_bg > img {
+    width: 74%;
+}
+}
      @media screen and (min-width: 1500px) {
         body,nav,footer{
             font-size: 30px;
@@ -569,6 +617,10 @@ section{
 .nav li img {
     width: 21px;
 }
+.section_bg {
+    top: -12%;
+}
+
      }
       @media screen and (min-width: 1600px) {
         body,nav{
@@ -579,6 +631,9 @@ section{
 }
 .nav li img {
     width: 22px;
+}
+.grey {
+    min-height: 280px;
 }
      }
       @media screen and (min-width: 1700px) {
@@ -591,6 +646,9 @@ section{
 .nav li img {
     width: 23px;
 }
+.grey {
+    min-height: 260px;
+}
      }
       @media screen and (min-width: 1800px) {
         body,nav{
@@ -599,6 +657,9 @@ section{
           .div_img img {
     width: 78%;
 }
+.grey {
+    min-height: 310px;
+}
      }
      @media screen and (min-width: 1900px) {
         body,nav{
@@ -606,6 +667,15 @@ section{
         }
                   .div_img img {
     width: 79%;
+}
+.section_bg2 {
+    top: -9% !important;
+}
+.section_bg {
+    top: -8%;
+}
+.section_bg > img {
+    width: 74%;
 }
 .nav li img {
     width: 24px;
