@@ -101,6 +101,9 @@ and (max-width : 414px) {
 .contact-section2 {
     padding: 114px 0 0;
     }
+    .num {
+    left: -30%;
+}
 
 }
 @media only screen
@@ -431,6 +434,9 @@ and (min-device-width : 768px) {
 .grey {
     min-height: 180px;
 }
+.num {
+    left: -30%;
+}
  }
  @media screen and (min-width: 650px)  {
     body{
@@ -515,7 +521,7 @@ section{
     margin-top: -155px;
 }
 .num {
-    left: -50%;
+    left: -57%;
 }
 .grey {
     min-height: 210px;
@@ -526,6 +532,17 @@ section{
 .section5-a {
     padding-bottom: 8%;
     }
+      .web-h1 {
+    width: 41%;
+}
+.web03 {
+    margin-top: -350px;
+}
+    }
+    @media screen and (min-width: 1000px)  {
+        .web01, .web04{
+    padding-right: 10%;
+}
     }
    @media screen and (max-width: 1100px)  {
       .navbar-brand.brand{
@@ -558,10 +575,10 @@ section{
 .section_bg {
     top: -8%;
 }
-.web-h1 {
+/*.web-h1 {
     width: 100%;
 }
-
+*/
 .imgs {
     width: 100%;
 }
@@ -580,12 +597,20 @@ section{
 .grey {
     min-height: 185px;
 }
-
+.num {
+    left: -34%;
+}
+.web01, .web04 {
+    padding-right: 0%;
+}
      }
     @media screen and (min-width: 1366px) {
         .container{
             width:86.5%;
         }
+        .web01, .web04 {
+    padding-right: 0;
+}
         body,nav,footer{
             font-size: 24px;
         }
@@ -681,6 +706,9 @@ section{
 .section_bg3 {
     top: -10%;
 }
+.num {
+    left: -38%;
+}
 }
      @media screen and (min-width: 1400px) {
         body,nav,footer{
@@ -716,6 +744,9 @@ section{
 .grey {
     min-height: 250px;
 }
+.num {
+    left: -53%;
+}
 .section7-det {
     background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -11% 35% / 15% auto;
  }
@@ -742,6 +773,9 @@ section{
         body,nav,footer{
             font-size: 30px;
         }
+        .grey {
+    min-height: 265px;
+}
 
 .nav li img {
     width: 21px;
@@ -837,10 +871,10 @@ section{
     padding: 142px;
 }
 .grey {
-    min-height: 350px;
+    min-height: 340px;
 }
 .num {
-    left: -50%;
+    left: -55%;
      }
      .section_bg3 {
     top: -82px;
