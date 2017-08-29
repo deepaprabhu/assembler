@@ -70,13 +70,18 @@ h5{
 h5 span{
     font-family: 'LeituraNews-Italic';
 }
-h6{
+h6, .list .list-h4 li{
         color: #999;
     font-family: "Graphik-Semibold";
     font-size:0.368em;
     letter-spacing: 1px;
     text-transform: uppercase;
 
+}
+.list .list-h4 li{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 h6 span{
     color:#666;
