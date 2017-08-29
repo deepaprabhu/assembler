@@ -259,7 +259,7 @@ and (min-device-width : 768px) {
     padding: 38px;
 }
 .imgs {
-    margin: 0 auto 38px;
+    margin: 0 auto 54px;
     width: 50%;
 }
 .section7-a {
@@ -268,8 +268,36 @@ and (min-device-width : 768px) {
 .head1 {
     margin-bottom: 76px;
 }
+.section_bg {
+    top: 10px;
+}
+.section_bg > img {
+    width: 34%;
+}
+.section_bg > img {
+    width: 30%;
+}
+.section_bg2 img {
+    width: 93px;
+}
+.section_bg2 {
+    top: -18px;
+}
+.section5-a {
+    background-color: #fafafa;
+    margin: 25px auto 76px;
 
  }
+ .web-h1 {
+    width: 100%;
+}
+.section_bg3 img {
+    width: 50%;
+}
+.section_bg3 {
+    top: 6%;
+}
+}
      @media screen and (min-width: 375px)  {
    body{
         font-size: 13px;
@@ -337,11 +365,14 @@ and (min-device-width : 768px) {
     top: -18px;
 }
 .section_bg {
-    top: -2%;
+    top: 0%;
 }
 
 .web-h1 {
     margin-bottom:38px;
+}
+.grey {
+    min-height: 135px;
 }
  }
      @media screen and (min-width: 425px)  {
@@ -357,6 +388,9 @@ and (min-device-width : 768px) {
 .section7-a {
     min-height: 1050px;
 }
+.grey {
+    min-height: 150px;
+}
  }
      @media screen and (min-width: 450px)  {
     body{
@@ -367,6 +401,9 @@ and (min-device-width : 768px) {
     body{
         font-size: 19px;
     }
+   .grey {
+    min-height: 170px;
+}
     .section_bg2 {
     top: -47px;
 }
@@ -376,29 +413,55 @@ and (min-device-width : 768px) {
 .section6 {
     background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -60px 0px / 150px auto
 }
+.num {
+    left: -34%;
 
  }
+}
      @media screen and (min-width: 550px)  {
     body{
         font-size: 21px;
     }
+    .section_bg > img {
+    width: 31%;
+}
+.section_bg {
+    top: -1%;
+}
+.grey {
+    min-height: 180px;
+}
  }
  @media screen and (min-width: 650px)  {
     body{
         font-size: 22px;
     }
-     .grey {
-    min-height: 160px;
-}
+
 .section7-a {
     min-height: 1100px;
 }
+.section_bg > img {
+    width: 39%;
+}
+.section_bg {
+    top: -3%;
+}
+.grey {
+    min-height: 180px;
+}
+
  }
 
    @media screen and (min-width: 767px)  {
     .section5 .container{
         width:100%;
     }
+    .grey {
+    min-height: 160px;
+}
+.num {
+    left: -25%;
+}
 }
 
 @media screen and (min-width: 768px)  {
@@ -427,7 +490,43 @@ h2 {
 .imgs {
     width: 90%;
 }
+.section_bg > img {
+    width: 41%;
 }
+.section_bg {
+    top: -4%;
+}
+}
+@media screen and (min-width: 800px)  {
+.section3-a, .section3-b {
+    padding: 76px;
+}
+.imgs {
+    margin: 0 auto 38px;
+    width: 50%;
+}
+section{
+    margin-top:38px;
+    margin-bottom:38px;
+}
+}
+@media screen and (min-width: 801px)  {
+.web03 {
+    margin-top: -155px;
+}
+.num {
+    left: -50%;
+}
+.grey {
+    min-height: 210px;
+}
+.web02, .web04{
+    margin-left:50px;
+}
+.section5-a {
+    padding-bottom: 8%;
+    }
+    }
    @media screen and (max-width: 1100px)  {
       .navbar-brand.brand{
         padding-right:20%;
@@ -440,25 +539,49 @@ h2 {
 .div_img img {
     width: 61%;
 }
-.section3-a, .section3-b {
+/*.section3-a, .section3-b {
     padding: 78px;
+}*/
+
+
+.section6 h2 {
+    margin-top: 0;
+}
+
+
+
+    }
+     @media screen and (min-width: 1100px)  {
+        .section_bg > img {
+    width: 57%;
+}
+.section_bg {
+    top: -8%;
 }
 .web-h1 {
-    width: 50%;
+    width: 100%;
 }
-.web03 {
-    margin-top: -350px;
-}
+
 .imgs {
     width: 100%;
 }
 .section7-a {
     min-height: 375px;
 }
-.section6 h2 {
-    margin-top: 0;
+.section6 {
+    background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -100px 36% / 150px auto;
 }
-    }
+
+
+}     @media screen and (min-width: 1200px) {
+    .section3-a, .section3-b {
+    padding: 76px 114px;
+}
+.grey {
+    min-height: 185px;
+}
+
+     }
     @media screen and (min-width: 1366px) {
         .container{
             width:86.5%;
@@ -497,7 +620,6 @@ section {
 .section5-a {
     background-color: #fafafa;
     margin: 114px auto 76px;
-    padding-bottom: 5%;
     padding-top: 114px;
     width: 93%;
 }
@@ -532,16 +654,16 @@ section{
 .section6 h2 {
     margin-top: 28%;
 }
-.section_bg3 img {
-    width: 68%;
+.section_bg > img {
+    width: 71%;
 }
-.section_bg3 {
-    top: -70px;
+.section_bg {
+    top: -17%;
 }
 .section7-a {
 
     margin: 114px auto 76px;
-    min-height: 550px;
+    min-height: 525px;
     padding: 114px 0;
   }
   .section7-det {
@@ -551,7 +673,13 @@ section{
     padding: 70px 0 180px;
 }
 .grey {
-    min-height: 210px;
+    min-height: 200px;
+}
+.section_bg3 img {
+    width: 59%;
+}
+.section_bg3 {
+    top: -10%;
 }
 }
      @media screen and (min-width: 1400px) {
@@ -586,7 +714,7 @@ section{
     width: 42%;
 }
 .grey {
-    min-height: 267px;
+    min-height: 250px;
 }
 .section7-det {
     background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -11% 35% / 15% auto;
@@ -606,21 +734,33 @@ section{
 .section_bg > img {
     width: 74%;
 }
+.section_bg3 img {
+    width: 62%;
+}
 }
      @media screen and (min-width: 1500px) {
         body,nav,footer{
             font-size: 30px;
         }
-          .div_img img {
-    width: 69%;
-}
+
 .nav li img {
     width: 21px;
 }
 .section_bg {
     top: -12%;
 }
-
+.div_img img {
+    width: 82%;
+}
+.section1-a {
+    padding: 150px 0 250px;
+}
+.section_bg3 img {
+    width: 75%;
+}
+.section_bg3 {
+    top: -16%;
+}
      }
       @media screen and (min-width: 1600px) {
         body,nav{
@@ -635,27 +775,28 @@ section{
 .grey {
     min-height: 280px;
 }
+
      }
       @media screen and (min-width: 1700px) {
        body,nav{
             font-size: 34px;
         }
          .div_img img {
-    width: 75%;
+    width: 85%;
 }
 .nav li img {
     width: 23px;
 }
 .grey {
-    min-height: 260px;
+    min-height: 290px;
 }
      }
       @media screen and (min-width: 1800px) {
         body,nav{
             font-size: 36px;
         }
-          .div_img img {
-    width: 78%;
+       .div_img img {
+    width: 89%;
 }
 .grey {
     min-height: 310px;
@@ -665,9 +806,7 @@ section{
         body,nav{
             font-size: 40px;
         }
-                  .div_img img {
-    width: 79%;
-}
+
 .section_bg2 {
     top: -9% !important;
 }
@@ -692,7 +831,7 @@ section{
     top: -40px;
     }
 .div_img img {
-    width: 98%;
+    width: 94%;
 }
 .section3-a, .section3-b {
     padding: 142px;
@@ -703,4 +842,10 @@ section{
 .num {
     left: -50%;
      }
+     .section_bg3 {
+    top: -82px;
+}
+.section_bg3 img {
+    width: 77%;
+}
  }
