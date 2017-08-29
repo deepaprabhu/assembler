@@ -300,6 +300,23 @@ and (min-device-width : 768px) {
 .section_bg3 {
     top: 6%;
 }
+.contact-section2 {
+    padding: 19px 0 0;
+}
+.grey-bg-col {
+
+    height: 600px;
+    margin-top: -58px;
+    width: 70%;
+}
+.div-adjust {
+    margin-top: 38px;
+}
+.div-adjust div {
+    margin: 19px 0 0;
+    padding: 19px 0;
+}
+
 }
      @media screen and (min-width: 375px)  {
    body{
@@ -515,6 +532,11 @@ section{
     margin-top:38px;
     margin-bottom:38px;
 }
+.grey-bg-col {
+    height: 600px;
+    margin-top: -58px;
+    width: 30%;
+}
 }
 @media screen and (min-width: 801px)  {
 .web03 {
@@ -538,11 +560,27 @@ section{
 .web03 {
     margin-top: -350px;
 }
+.grey-bg-col {
+    height: 420px;
+    margin-top: -76px;
+}
+.contact-section2 {
+    padding: 38px 0 0;
+}
+#googleMap {
+    height: 655px;
+}
+    .div-adjust {
+    margin-top: 0px;
+}
     }
     @media screen and (min-width: 1000px)  {
         .web01, .web04{
     padding-right: 10%;
 }
+#googleMap {
+    height: 670px;
+    }
     }
    @media screen and (max-width: 1100px)  {
       .navbar-brand.brand{
@@ -564,8 +602,16 @@ section{
 .section6 h2 {
     margin-top: 0;
 }
-
-
+.contact-section2 {
+    padding: 76px 0 0;
+}
+.grey-bg-col {
+    height: 450px;
+    margin-top: -115px;
+}
+#googleMap {
+    height: 630px;
+}
 
     }
      @media screen and (min-width: 1100px)  {
@@ -587,6 +633,9 @@ section{
 }
 .section6 {
     background: rgba(0, 0, 0, 0) url("../img/dots.png") no-repeat scroll -100px 36% / 150px auto;
+}
+#googleMap {
+    height: 632px;
 }
 
 
@@ -709,6 +758,17 @@ section{
 .num {
     left: -38%;
 }
+
+.grey-bg-col {
+    height: 450px;
+    margin-top: -152px;
+}
+.contact-section2 {
+    padding: 114px 0;
+}
+#googleMap {
+    height: 670px;
+}
 }
      @media screen and (min-width: 1400px) {
         body,nav,footer{
@@ -768,6 +828,13 @@ section{
 .section_bg3 img {
     width: 62%;
 }
+#googleMap {
+    height: 740px;
+}
+.grey-bg-col {
+    height: 570px;
+    margin-top: -172px;
+}
 }
      @media screen and (min-width: 1500px) {
         body,nav,footer{
@@ -795,6 +862,12 @@ section{
 .section_bg3 {
     top: -16%;
 }
+#googleMap {
+    height: 780px;
+}
+.grey-bg-col {
+    height: 590px;
+    }
      }
       @media screen and (min-width: 1600px) {
         body,nav{
@@ -808,6 +881,12 @@ section{
 }
 .grey {
     min-height: 280px;
+}
+#googleMap {
+    height: 810px;
+}
+.grey-bg-col {
+    height: 615px;
 }
 
      }
@@ -824,6 +903,12 @@ section{
 .grey {
     min-height: 290px;
 }
+#googleMap {
+    height: 850px;
+}
+.grey-bg-col {
+    height: 635px;
+}
      }
       @media screen and (min-width: 1800px) {
         body,nav{
@@ -832,8 +917,12 @@ section{
        .div_img img {
     width: 89%;
 }
-.grey {
-    min-height: 310px;
+.grey-bg-col {
+     height: 655px;
+    margin-top: -172px;
+}
+#googleMap {
+    height: 880px;
 }
      }
      @media screen and (min-width: 1900px) {
@@ -881,5 +970,12 @@ section{
 }
 .section_bg3 img {
     width: 77%;
+}
+#googleMap {
+    height: 960px;
+}
+.grey-bg-col {
+    height: 750px;
+    margin-top: -226px;
 }
  }
