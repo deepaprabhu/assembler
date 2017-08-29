@@ -1,12 +1,14 @@
 /*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
 @import url('font.css');
 
+nav:not(#toolbar-bar):not(.toolbar-lining):not(#toolbar-item-devel-tray):not(.toolbar-tray-name):not(.toolbar-toggle-orientation):not(.edit-devel-toolbar)
+and .nav:not(.menu) li a {
 
-nav{
   font-size: 24px;
     line-height: 1.6;
     margin:0;
     padding:0;
+
 }
 body{
     font-size: 24px;
