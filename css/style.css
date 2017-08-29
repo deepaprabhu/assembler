@@ -120,7 +120,9 @@ a, a:hover{
     color: #ff5c5c !important;
     font-family: inherit;
 }
-
+.span-red1{
+    color:#e14343 !important;
+}
 .brand {
     color: #111111;
     font-family: "Graphik-Bold";
@@ -705,4 +707,77 @@ padding:38px 0;
 }
 .buttons .btn{
     margin-right:38px;
+}
+/*************************************************************************************************************/
+.list-section1 {
+    padding: 76px 0 0;
+}
+.list-section1 img{
+    width:68%;
+    float:right;
+}
+.list-section1 h6{
+    margin-top:25px;
+}
+.list-section3, .list-section4{
+    padding: 54px 0 38px;
+
+}
+.list-section3 img{
+    width:100%;
+    margin-bottom: 38px;
+}
+.img_text {
+    padding: 19px 44px;
+}
+
+.list-section4 .grey{
+    margin-top:6px;
+    width:75px;
+    height: 215px
+}
+/*.col1{
+    margin-bottom: 76px;
+}*/
+
+.col3{
+    float: right;
+    width: 90%;
+    display: inline-block;
+}
+.margins{
+    display: inline-block;
+    width:10%;
+    border-right:1px solid #ccc
+    height:210px;
+    position: absolute;
+    right:0;
+}
+.col2 {
+    padding-right: 10%;
+    position: relative;
+}
+
+
+.list-sec4 .row{
+    margin:76px 0;
+
+}
+.list-sec4 img{
+    width:70%;
+    margin-top:30%;
+}
+.col1 .p1{
+     color: #999;
+}
+.hr2 {
+    margin: 76px 0 0;
+}
+.margins {
+    border-right: 1px solid #ccc;
+    height: 88%;
+    position: absolute;
+    right: 0;
+    top: 2%;
+    width: 10%;
 }

@@ -316,6 +316,34 @@ and (min-device-width : 768px) {
     margin: 19px 0 0;
     padding: 19px 0;
 }
+.list-section1 h2{
+    padding:0;
+}
+.list-section1 img {
+    float: none;
+}
+.list-section3, .list-section4 {
+    padding: 38px 0 0;
+}
+.col1 {
+    float: right;
+    margin-left: 3%;
+    width: 69%;
+}
+.list-section4 .grey {
+    height: 195px;
+}
+.list-sec4 .row {
+    margin: 19px 0;
+}
+.col3 {
+    float: left;
+    margin: 54px 0;
+}
+.list-sec4 img {
+    margin-top: 0;
+    width: 20%;
+}
 
 }
      @media screen and (min-width: 375px)  {
@@ -536,6 +564,18 @@ section{
     height: 600px;
     margin-top: -58px;
     width: 30%;
+}
+.list-section1 img {
+    float: right;
+    margin-top: 35%;
+    width: 94%;
+}
+.img_text {
+    padding: 114px 44px;
+}
+.list-sec4 img {
+    margin-top: 20px;
+    width: 100px;
 }
 }
 @media screen and (min-width: 801px)  {
